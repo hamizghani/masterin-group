@@ -190,6 +190,14 @@ h2 {
   border: 0;
 }
 
+.apd1 {
+  font-size: 24px;
+}
+@media (max-width: 700px) {
+  .apd1 {
+    font-size: 16px;
+  }
+}
 
 .grow-on-scroll {
   opacity: 0;
@@ -470,6 +478,17 @@ h2 {
                0 0 16px #d4a400, 
                0 0 32px #d4a400;
 }
+@media (max-width: 720px) {
+  .colon {
+    font-size: 72px;
+  } 
+}
+@media (max-width: 600px) {
+  .colon {
+    font-size: 36px;
+  } 
+}
+
 .clock {
   font-family: "Rajdhani", monospace;
   color: #ffcc32;
