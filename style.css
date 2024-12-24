@@ -195,7 +195,8 @@ h2 {
 }
 @media (max-width: 700px) {
   .apd1 {
-    font-size: 16px;
+    font-size: 4vw;
+    max-width: 60%;
   }
 }
 
@@ -336,7 +337,7 @@ h2 {
 }
 @media (max-width: 768px) {
   .countdown-title {
-    font-size:32px;
+    font-size:8vw;
   }
 }
 
@@ -437,7 +438,7 @@ h2 {
     font-size: 72px;
   }
   .time-box p {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 @media (max-width: 500px) {
@@ -445,7 +446,7 @@ h2 {
     font-size: 60px;
   }
   .time-box p {
-    font-size: 8px;
+    font-size: 6px;
   }
 }
 @media (max-width: 500px) {
@@ -453,7 +454,15 @@ h2 {
     font-size: 36px;
   }
   .time-box p {
-    font-size: 4px;
+    font-size: 2px;
+  }
+}
+@media (max-width: 480px) {
+  .time-box {
+    font-size: 8vw;
+  }
+  .time-box p {
+    font-size: 1vw;
   }
 }
 
@@ -462,31 +471,18 @@ h2 {
 }
 @media (max-width: 800px) {
   .hoho {
-    font-size: 30px;
-  }
-  .hoho {
-    font-size: 24px;
+    font-size: 6vw;
   }
 }
 
 
 .colon {
   color: #ffcc32;
-  font-size: 100px;
+  font-size: 8vw;
   text-shadow: 0 0 4px #d4a400, 
                0 0 8px #d4a400, 
                0 0 16px #d4a400, 
                0 0 32px #d4a400;
-}
-@media (max-width: 720px) {
-  .colon {
-    font-size: 72px;
-  } 
-}
-@media (max-width: 600px) {
-  .colon {
-    font-size: 36px;
-  } 
 }
 
 .clock {
